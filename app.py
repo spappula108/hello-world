@@ -1,5 +1,6 @@
 import os
 from dash import Dash, dcc, html, Input, Output, State
+from dash.dependencies import ALL
 from flask import Flask
 
 from qa_app.db import Database
